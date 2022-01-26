@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/hyeongseok9/gopsutil/v3/internal/common"
 	"golang.org/x/sys/unix"
 )
 

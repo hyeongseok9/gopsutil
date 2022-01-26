@@ -7,8 +7,8 @@ import (
 	"context"
 	"os"
 
+	"github.com/hyeongseok9/gopsutil/v3/internal/common"
 	stats "github.com/lufia/plan9stats"
-	"github.com/shirou/gopsutil/v3/internal/common"
 )
 
 func SwapMemory() (*SwapMemoryStat, error) {

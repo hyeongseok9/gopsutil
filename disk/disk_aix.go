@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/hyeongseok9/gopsutil/v3/internal/common"
 	"github.com/power-devops/perfstat"
-	"github.com/shirou/gopsutil/v3/internal/common"
 )
 
 var FSType map[int]string
